@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "index.js": { "memory": 256, "maxDuration": 30 }
+    "backend/index.js": { "memory": 256, "maxDuration": 30 }
   },
   "routes": [
-    { "src": "/api/webhook", "dest": "/index.js" },
-    { "src": "/api/calculate-score", "dest": "/index.js" },
-    { "src": "/api/healthgpt", "dest": "/index.js" }
+    { "src": "/api/webhook", "dest": "backend/index.js" },
+    { "src": "/api/calculate-score", "dest": "backend/index.js" },
+    { "src": "/api/healthgpt", "dest": "backend/index.js" }
   ]
 }
