@@ -6,7 +6,7 @@
     "supabase": "^2.38.4",
     "openai": "^4.0.0",
     "langchain": "^0.0.100",
-    "upstash-redis": "^1.23.4" // For caching
+    "upstash-redis": "^1.23.4"
   },
   "engines": {
     "node": "18"
